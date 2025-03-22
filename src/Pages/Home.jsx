@@ -27,7 +27,7 @@ const Home = ({setWatchList, watchList}) => {
     <>
       <HomeBanner />
       <TopMovies filterCtg={filterCtg} setFilterCtg={setFilterCtg} topMovies={topMovies} setWatchList={setWatchList} watchList={watchList} />
-      <Subscribe />
+      {/* <Subscribe /> */}
     </>
   )
 }

@@ -65,7 +65,7 @@ const SearchPage = ({currentPage, setCurrentPage, setWatchList, watchList }) => 
           }
         </div>
       </section>
-      <Subscribe />
+      {/* <Subscribe /> */}
     </>
   );
 };
